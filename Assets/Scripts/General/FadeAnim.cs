@@ -13,7 +13,7 @@ namespace General
             FadeOut();
         }
 
-        private void FadeIn()
+        public void FadeIn()
         {
             animator.Play("FadeInAnim");
         }

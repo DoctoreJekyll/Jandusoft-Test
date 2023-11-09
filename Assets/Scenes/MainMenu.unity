@@ -276,7 +276,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 285241827}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3761030349590599050}
+        m_TargetAssemblyTypeName: General.FadeAnim, Assembly-CSharp
+        m_MethodName: FadeIn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &285241827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2607,7 +2619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3761030351255489916, guid: 4229a319471ff024ea57bb9b32dc70f1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3761030351255489918, guid: 4229a319471ff024ea57bb9b32dc70f1, type: 3}
       propertyPath: m_Maskable
@@ -2703,3 +2715,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4229a319471ff024ea57bb9b32dc70f1, type: 3}
+--- !u!114 &3761030349590599050 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8306967731612813230, guid: 4229a319471ff024ea57bb9b32dc70f1, type: 3}
+  m_PrefabInstance: {fileID: 3761030349590599049}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3761030349590599051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bbc2fc7a0ff3fd40b1626bdd4927332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3761030349590599051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3761030351255489916, guid: 4229a319471ff024ea57bb9b32dc70f1, type: 3}
+  m_PrefabInstance: {fileID: 3761030349590599049}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3761030349590599052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3761030349590599051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe862a5496750c40893d0d28ceb597f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Game

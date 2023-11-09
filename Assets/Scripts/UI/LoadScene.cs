@@ -3,11 +3,16 @@ using UnityEngine.SceneManagement;
 
 namespace UI
 {
-    public class LoadSceneOnClick : MonoBehaviour
+    public class LoadScene : MonoBehaviour
     {
-        public void LoadSceneByString(string sceneName)
+
+        [SerializeField] private string sceneName;
+
+        public void LoadSceneByString()
         {
             SceneManager.LoadScene(sceneName);
         }
+
+
     }
 }
