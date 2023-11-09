@@ -768,6 +768,7 @@ GameObject:
   - component: {fileID: 531198402}
   - component: {fileID: 531198404}
   - component: {fileID: 531198403}
+  - component: {fileID: 531198405}
   m_Layer: 5
   m_Name: MenuWindow
   m_TagString: Untagged
@@ -836,6 +837,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531198401}
   m_CullTransparentMesh: 1
+--- !u!95 &531198405
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531198401}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 68ada24ebf2999f4ea602914f266ea9c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &582464643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,6 +1348,7 @@ GameObject:
   - component: {fileID: 1105447378}
   - component: {fileID: 1105447380}
   - component: {fileID: 1105447379}
+  - component: {fileID: 1105447381}
   m_Layer: 5
   m_Name: ChatBG
   m_TagString: Untagged
@@ -1394,6 +1416,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105447377}
   m_CullTransparentMesh: 1
+--- !u!95 &1105447381
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105447377}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f701b55f432254340a2cbfe5064e5707, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1121886825
 GameObject:
   m_ObjectHideFlags: 0
@@ -1618,6 +1660,7 @@ GameObject:
   - component: {fileID: 1475350497}
   - component: {fileID: 1475350499}
   - component: {fileID: 1475350498}
+  - component: {fileID: 1475350500}
   m_Layer: 5
   m_Name: TopImageBG
   m_TagString: Untagged
@@ -1685,6 +1728,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475350496}
   m_CullTransparentMesh: 1
+--- !u!95 &1475350500
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475350496}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 413c21451074e484090d7f9a8af238e6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1515563496
 GameObject:
   m_ObjectHideFlags: 0
