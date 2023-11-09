@@ -1,18 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class ScaleIconOnPoint : MonoBehaviour
+namespace UI
 {
-    // Start is called before the first frame update
-    void Start()
+    public class ScaleIconOnPoint : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
+        [Header("Configuration")]
+        [SerializeField] private GameObject iconObj;
+        [Range(1.1f, 1.25f)]
+        [SerializeField] private float multiplyValue;
         
-    }
+        private Vector3 originalScale;
 
-    // Update is called once per frame
-    void Update()
-    {
+        private void Start()
+        {
+            originalScale = iconObj.transform.localScale;
+        }
+
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            ChangeIconScale(multiplyValue);
+        }
+
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            iconObj.transform.localScale = originalScale;
+        }
+
+        private void ChangeIconScale(float value)
+        {
+            iconObj.transform.localScale *= value;
+        }
+        
         
     }
 }
